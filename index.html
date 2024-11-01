@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE+edge">
+     <meta name="Viewport" content="width=device-width, initial- scale=1.0">
+     <title>የእኔ ፖርትፎሊዮ ድህረገፅ</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/1f6a0e3a52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="pics/unofficial-02.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contuct me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>የኮምፒውተር ባለሙያ እና  <span>  Graphics Designer  </span></p>
+            <h1>ሰላም, እኔ <span>ዮናስ</span> ተሰማ ነኝ<br>ከኢትዮጵያ</h1>
+        </div>
+    </div> 
+</div>
+<!-- ----------------about-------------- -->  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pics/sub 01.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titel">ስለ እኔ</h1>
+                <p>እኔ ለግራፊክ ዲዛይን፣ ለሃርድዌር እቃዎች እና ለአውታረመረብ እና ለኔትወርክ ዲዛይን ከፍተኛ ፍቅር ያለኝ የፈጠራ ሰው ነኝ። 
+                    በተለያዩ ርዕሰ ጉዳዮች ላይ ብዙ ልምድ አለኝ እና እውቀቴን ለማስፋት ሁል ጊዜ አዳዲስ ልምዶችን እፈልጋለሁ። 
+                    ለመለወጥ ክፍት በመሆኔ እና አዲስ ነገር በመማር የተሻለ ንድፍ አውጪ እና የተሻለ ሰው መሆን እንደምችል አምናለሁ። 
+                    ሁሌም እራሴን ለማሻሻል እና ሀሳቤን የምገልጽባቸው አዳዲስ መንገዶችን ለማግኘት መንገዶችን እፈልጋለሁ።</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">የእኔ ችሎታዎች</p>
+                    <p class="tab-links" onclick="opentab('experience')">የሥራ ልምዶች</p>
+                    <p class="tab-links" onclick="opentab('education')">ትምህርት </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>ግራፊክስ</span><br>Designing Photos/Videos፣<br>Logo Designing፣<br>Motion Design</li>
+                        <li><span>ሃርድዌር እና ኔትወርክ መረብ</span><br>የሃርድዌር ችግሮችን አስተካክላለሁ "Computers"፣ "Laptops" እና "Software installation"<br>"Networking" እና የኔትወርክ ዝርጋታ ስራዎች</li>
+                        <li><span>የማህበራዊ ሚዲያ ንድፍ(Social Media Design)</span><br>"Content Creater" እና<br>የማህበራዊ ሚዲያ እድገት</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2011 - 2012</span><br>በትምህርት ቤቴ ውስጥ በግራፊክስ ዲዛይነሮች ክበብ ውስጥ የቡድን መሪ ነበርኩ።</li>
+                        <li><span>2013 - አሁንም</span><br> በኔትወርክ ኩባንያዎች ላይ በኮንትራት ክፍያ እሠራ ነበር እና ብዙ የስራ ልምዶችን ወስጃለሁ።</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2009 - 2010</span><br>የ1 ዓመት ግራፊክ ዲዛይን እና ነፃ የቪዲዮ ግራፊክስ የአጭር ጊዜ ኮርስ </li>
+                        <li><span>2010 - 2012</span><br>የኢንፎርሜሽን ቴክኖሎጂ(Hardware and Network Servicing)<br>TVET Level 4 coc</li>
+                        <li><span>2012 - አሁንም</span><br>በአንዳንድ ንድፎች እና ውጤቶች ላይ እየሰራሁ ነው።</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------services---------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titel">አገልግሎቶች</h1> 
+        <div class="services-list">
+              <div>
+                <i class="fa-regular fa-image fa-xl" style="color: #269b19;"></i>              
+                <h2>የግራፊክስ ስራዎች</h2>
+                <p>እንደ photo፣ logo፣ የመጽሐፍ ሽፋን፣ የሙዚቃ ፖስተሮች፣ የፊልም ሽፋኖች፣ የሰርግ አልበሞች </p>
+                <a href="#">Learn more</a>
+              </div>
+              <div> 
+                <i class="fa-regular fa-film fa-xl" style="color: #269b19;"></i>
+                <h2>ቪዲዮዎች</h2>
+                <p>እንደ motion Desig፣ Social Media Videos፣ music trailers እና የሰርግ ቪዲዮዎች</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-regular fa-microchip fa-xl" style="color: #269b19;"></i>
+                <h2>የኮምፒውተር ጥገና</h2>
+                <p>እንደ ላፕቶፕ እና ዴስክቶፕ ጥገና፣ የሃርድ ዲስክ ማሻሻያ ራም ማሻሻል፣ የባትሪ መተካት፣ የዊንዶውስ ዝመና፣ ሶፍትዌር መጫን እና ማሻሻል </p>
+                <a href="#">Learn more</a>
+              </div>
+              <div> 
+                <i class="fa-regular fa-network-wired fa-xl" style="color: #269b19;"></i>
+                <h2>የኔትወርክ መረብ ዝርጋታ</h2>
+                <p>እንደ የአውታረ መረብ ስህተት ማስተካከል፣ የኔትወርክ ገመድ ዝርጋታ</p>
+                <a href="#">Learn more</a>
+              </div>
+        </div> 
+    </div>
+</div>
+<!-- --------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">ፖርትፎሊዮ</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pics/work-1.jpg" >
+                <div class="layer">
+                    <h3>ግራፊክስ</h3>
+                    <p>This one is my favourite picture if you went a tutorial there is my ig link below the photo</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pics/work-2.jpg" >
+                <div class="layer">
+                    <h3>ቪዲዮ ግራፊክስ</h3>
+                    <p>This one is my favourite picture if you went a tutorial there is my ig link below the photo</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">ብዙ ልማወቅ</a>
+    </div>
+</div>
+<!-------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>yonastesema24@gmail.com</p>
+                <p><i class="fa-regular fa-phone"></i>+2519-40-50-72-43</p>
+                <p><i class="fa-regular fa-phone"></i>+2519-74-48-83-45</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>    
+                <h1 href=""><i class="fa-brands fa-tiktok"></i></h1>    
+                <h2 href=""><i class="fa-brands fa-youtube"></i></h2>       
+            </div>
+            <a href="pics/Cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="" name="contact-me">
+                <input type="text" name="name" placeholder="name" required>
+                <input type="email" name="email" placeholder="email" required>
+                <textarea name="message" rows="6" placeholder="message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Website by Yonas Tesema</p>
+    </div>
+</div>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyeVZiRhpfjMQa_kjCdT3qhSV4nmSIBoi_iLZpIF53qZ4sdp2L_QbTlc8krhrXRDzEa/exec>'
+    const form = document.forms['contact-me']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+ 
+
+</script>
+
+</body>
+</html>
